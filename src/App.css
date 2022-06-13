@@ -1,0 +1,86 @@
+.button {
+  margin: 15px;
+}
+
+.buttonBar {
+  text-align: center;
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+  top: 300px;
+  right: 0;
+  position: absolute;
+  z-index: 5;
+}
+
+.expandedNavPanel {
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 5;
+}
+
+.expandedResourcesPanel {
+  text-align: center;
+  width: 500px;
+  height: 300px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 5;
+}
+
+
+.minimizedNavPanel {
+  width: 300px;
+  height: 30px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 5;
+}
+
+.minimizedResourcesPanel {
+  text-align: center;
+  width: 500px;
+  height: 30px;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 5;
+}
+
+.navTitle {
+  display: flex;
+  flex-direction: row;
+}
+
+.minimizedResourcesPanel {
+  height: 30px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.expandedResourcesPanel {
+  min-height: 100px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.toolbar {
+  min-height: 40px;
+  border: 1px solid black;
+}
+
+.navTest {
+  position: absolute;
+  z-index: 5;
+}
+
+.buttonTest {
+  position: absolute;
+  z-index: 5;
+}
+
+.search {
+  float: right;
+}
